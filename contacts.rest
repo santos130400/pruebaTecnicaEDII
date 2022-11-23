@@ -1,0 +1,44 @@
+//GET ALL
+GET http://localhost:2020/contacts
+
+###
+
+//GET SINGLE
+
+GET http://localhost:2020/contacts/1
+
+###
+
+//NEW CONTACT
+
+POST http://localhost:2020/contacts
+Content-Type: application/json
+
+{
+    "names":"Arnold Santiago",
+    "secondNames":"Ceballos Ruiz",
+    "email":"sofiaceballos@gmail.com",
+    "cel": "3103298478",
+    "direction": "calle 150 # 15-26"
+}
+
+###
+
+//UPDATE CONTACT
+
+PUT http://localhost:2020/contacts/7
+Content-Type: application/json
+
+{
+    "names":"Sofia Maria",
+    "secondNames":"Ceballos Ruiz",
+    "email":"sofiaceballos@gmail.com",
+    "cel": 3103298478,
+    "direction": "calle 150 # 15-26"
+}
+
+###
+
+//DELETE CONTACT
+
+DELETE http://localhost:2020/contacts/2
