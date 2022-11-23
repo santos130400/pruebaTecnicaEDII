@@ -5,6 +5,3 @@ Instalar express en el proyecto con yarn (yarn add express)
 Instalar para facilitar el desarrollo nodemon (yarn add -D nodemon) dependencia de desarrollo
 Instalar sequelize (npm install --save sequelize) y el driver de la base de datos (npm install --save mysql2)
 Instalar reactJs y crear la app (npm install -g create-react-app)
-
-
-carta de presentacion con la universidad
